@@ -1,4 +1,6 @@
 #!/bin/bash
-git push origin master | git commit -am 'commit on inspiron' | git add .
+git add .
+git commit -am 'commit on inspiron'
+git push origin master 
 
 
